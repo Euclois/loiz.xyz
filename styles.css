@@ -16,6 +16,15 @@ div {
 }
 
 img {
-  width: 50vw;
-  margin: auto;
+  position: absolute;
+
+  top:50%;
+left:50%;
+ 
+  transform:translate(-50%, -50%);
+  
+  width:calc(100% - 40px);
+height:calc(100% - 40px);
+  max-width:40vw;
+    object-fit:contain !important;
 }
